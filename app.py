@@ -19,10 +19,10 @@ st.caption("UAdeO • Materia: Sistemas Inteligentes • Dra. Aiblis Susej Herre
 # ==============================================================================
 try:
     # Intenta leer la clave desde los secretos de Streamlit Cloud
-    api_key = st.secrets["TU_CLAVE"]
+    api_key = st.secrets["AQ.Ab8RN6LoQoXvjEhm7TsEzB2EcfWXFI4BLVo3DZDeZifiNG1pmw"]
 except Exception:
     # ⚠️ REEMPLAZA ESTA CADENA POR TU CLAVE REAL DE GOOGLE AI STUDIO PARA PRUEBAS LOCALES
-    api_key = "TU_CLAVE"
+    api_key = "AQ.Ab8RN6LoQoXvjEhm7TsEzB2EcfWXFI4BLVo3DZDeZifiNG1pmw"
 
 
 # ==============================================================================

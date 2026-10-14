@@ -13,8 +13,8 @@ from telegram.ext import (
 # ==============================================================================
 # CONFIGURACIÓN DE CREDENCIALES
 # ==============================================================================
-GEMINI_API_KEY = "TU_CLAVE"
-TELEGRAM_TOKEN = "TU_CLAVE"
+GEMINI_API_KEY = "AQ.Ab8RN6LoQoXvjEhm7TsEzB2EcfWXFI4BLVo3DZDeZifiNG1pmw"
+TELEGRAM_TOKEN = "AQ.Ab8RN6LoQoXvjEhm7TsEzB2EcfWXFI4BLVo3DZDeZifiNG1pmw"
 
 # Inicializar Cliente de Google GenAI
 client = genai.Client(api_key=GEMINI_API_KEY)
