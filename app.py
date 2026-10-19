@@ -158,7 +158,7 @@ if not st.session_state.interview_ended:
                 
                 try:
                     reporte_response = client.models.generate_content(
-                        model='gemini-2.5-flash',
+                        model='gemini-3.8-flash',
                         contents=prompt_reporte,
                         config=types.GenerateContentConfig(
                             system_instruction=system_instruction,
@@ -183,7 +183,7 @@ if not st.session_state.interview_ended:
                 
                 try:
                     response = client.models.generate_content(
-                        model='gemini-2.5-flash',
+                        model='gemini-3.8-flash',
                         contents=prompt_continuacion,
                         config=types.GenerateContentConfig(
                             system_instruction=system_instruction,
