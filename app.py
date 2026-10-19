@@ -104,7 +104,7 @@ if len(st.session_state.messages) == 0 and not st.session_state.interview_ended:
         
         try:
             response = client.models.generate_content(
-                model='gemini-2.5-flash',
+                model='gemini-3.8-flash',
                 contents=prompt_inicial,
                 config=types.GenerateContentConfig(
                     system_instruction=system_instruction,
